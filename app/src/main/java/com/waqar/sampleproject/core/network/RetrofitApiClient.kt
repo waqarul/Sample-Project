@@ -13,14 +13,14 @@ import java.util.concurrent.TimeUnit
 
 class RetrofitApiClient : IApiClient {
 
-    private val autoScoutService by lazy {
+    private val autoVehicleService by lazy {
         getRetrofit(ApiConstants.BASE_API_URL).create(
-            AutoScoutService::class.java
+            AutoVehicleService::class.java
         )
     }
 
     override fun getVehicleItems(): Observable<List<VehicleModel>> {
-        return autoScoutService.getVehicleItems()
+        return autoVehicleService.getVehicleItems()
     }
 
     private fun getRetrofit(baseUrl: String): Retrofit {
