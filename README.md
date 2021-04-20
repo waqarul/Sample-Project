@@ -3,7 +3,7 @@
 This project use the following:
 
 - MVVM Architecture
-- RxJava
+- RxJava/Coroutines
 - Butterknife
 - Retrofit
 - Glide
