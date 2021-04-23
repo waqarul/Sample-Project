@@ -19,7 +19,7 @@
     <!-- *************** -->
     <string name="title_no_internet_connection">No internet connection</string>
     <string name="message_no_internet_connection">Please check your internet connection and try again.</string>
-    <string name="title_error_in_requesta">Error in making request</string>
+    <string name="title_error_in_request">Error in making request</string>
     <string name="message_error_in_request">There is an issue to make the request</string>
     <string name="alert_ok_label">OK</string>
 
